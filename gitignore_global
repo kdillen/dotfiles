@@ -1,0 +1,6 @@
+*~
+.DS_Store
+.project
+.vagrant
+.settings
+*-test.conf

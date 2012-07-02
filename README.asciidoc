@@ -1,0 +1,13 @@
+dotfiles
+========
+Stefan Goethals <stefan@zipkid.eu>
+
+dot files
+
+== Command
+
+----
+git clone git@github.com:zipkid/dotfiles.git ~/.dot-files
+cd ~/.dot-files
+./create-link
+----
