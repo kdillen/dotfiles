@@ -2,6 +2,9 @@
 " Remaps :SW to sudo save the current file and tell vim to reload it 
 " command SW execute 'w !sudo tee % >/dev/null' | e! %
 
+autocmd vimenter * NERDTree
+
+filetype plugin indent on
 
 let g:ackprg="ack-grep -H --nocolor --nogroup --column"
 
