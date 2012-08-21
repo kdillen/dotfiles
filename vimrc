@@ -2,6 +2,8 @@
 " Remaps :SW to sudo save the current file and tell vim to reload it 
 " command SW execute 'w !sudo tee % >/dev/null' | e! %
 
+" autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+
 autocmd vimenter * NERDTree
 
 filetype plugin indent on

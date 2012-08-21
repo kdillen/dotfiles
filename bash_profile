@@ -24,10 +24,10 @@ lower()
     done
 }
 
-test -r /sw/bin/init.sh && . /sw/bin/init.sh
+##test -r /sw/bin/init.sh && . /sw/bin/init.sh
 
 # MacPorts Installer addition on 2012-04-10_at_17:05:32: adding an appropriate PATH variable for use with MacPorts.
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+##export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 # Finished adapting your PATH environment variable for use with MacPorts.
 
 . .bashrc

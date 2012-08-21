@@ -4,3 +4,4 @@
 .vagrant
 .settings
 *-test.conf
+*.swp
