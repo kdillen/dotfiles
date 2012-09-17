@@ -8,6 +8,8 @@ autocmd vimenter * NERDTree
 
 filetype plugin indent on
 
+au BufNewFile,BufRead *.pp set expandtab
+
 let g:ackprg="ack-grep -H --nocolor --nogroup --column"
 
 " Load pathogen bundle loader
@@ -34,9 +36,9 @@ endif
 
 " Have Vim load indentation rules and plugins according to the detected
 " filetype.
-if has("autocmd")
-  filetype plugin indent on
-endif
+"if has("autocmd")
+"  filetype plugin indent on
+"endif
 
 " Show (partial) command in status line.
 set showcmd
