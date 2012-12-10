@@ -8,7 +8,7 @@ autocmd vimenter * NERDTree
 
 filetype plugin indent on
 
-au BufNewFile,BufRead *.pp set expandtab
+" au BufNewFile,BufRead *.pp set expandtab
 
 let g:ackprg="ack-grep -H --nocolor --nogroup --column"
 
@@ -76,8 +76,9 @@ set foldcolumn=3    " Fold column is three bits wide
 set showfulltag     " Auto-complete things?
 
 " Indentation settings
-set tabstop=2       " I like four space tabs for indenting
-set shiftwidth=2    " I like four space tabs for indenting
+set expandtab				" I want tabs to be converted to spaces
+set tabstop=2       " I like two space tabs for indenting
+set shiftwidth=2    " I like two space tabs for indenting
 set smartindent     " Syntax aware indenting
 set autoindent      " Auto indent
 set lbr             " Put line breaks at word ends, not in the middle of words

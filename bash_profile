@@ -6,7 +6,9 @@ eict() { ssh eict; }
 sinsys() { ssh root@ma00e8mma; }
 
 alias sv='cd /Volumes/Source/Eclipse-workspace/Super-Visions/' 
+alias svv='cd /Volumes/Source/Eclipse-workspace/Super-Visions/vagrant' 
 alias zs='cd /Volumes/Source/Eclipse-workspace/Zipkid/' 
+alias zsv='cd /Volumes/Source/Eclipse-workspace/Zipkid/vagrant' 
 
 export JAVA_HOME="/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home"
 
