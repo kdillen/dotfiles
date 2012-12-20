@@ -196,14 +196,14 @@ au BufWritePost * call s:AutoChmodX()
 " PHP specific settings
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Tie in with the PHP syntax file and folding helper
-function! s:php_init()
-  set foldmethod=manual|EnableFastPHPFolds
-  map <F6> <Esc>:EnableFastPHPFolds<Cr>
-endfunction
+" function! s:php_init()
+"   set foldmethod=manual|EnableFastPHPFolds
+"    map <F6> <Esc>:EnableFastPHPFolds<Cr>
+" endfunction
 
 " Use the PHP doc
-au BufNewFile,BufRead *.php call s:php_init()
-autocmd FileType php set keywordprg=$HOME/.vim/plugins/php_doc
+" au BufNewFile,BufRead *.php call s:php_init()
+" autocmd FileType php set keywordprg=$HOME/.vim/plugins/php_doc
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
