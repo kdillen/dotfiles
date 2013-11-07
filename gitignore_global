@@ -5,3 +5,7 @@
 .settings
 *-test.conf
 *.swp
+.netrwhist
+Powerline_default_default_compatible.cache
+gitconfig
+bundle
